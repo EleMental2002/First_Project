@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Save Trees</title>
+</head>
+
+<body>
+    <Section class="showcase">
+        <header>
+            <h2 class="logo">Trees</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="video.mp4" muted loop autoplay style=""></video>
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Trees</h2>
+            <h3>Survival Matters For Everybeing</h3>
+            <p>Trees are the manifestion  of life for the people of the world for survival.</p>
+            <a href="#">Protect</a>
+        </div>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="facebook.png" alt="" width="90px"></a>
+            </li>
+            <li>
+                <a href="#"><img src="twitter.png" alt="" width="50px"></a>
+            </li>
+            <li>
+                <a href=""><img src="instagram.png" alt="" width="50px"></a>
+            </li>
+        </ul>
+    </Section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>
